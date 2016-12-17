@@ -24,7 +24,7 @@ describe('Countdown', () => {
         done();
       }, 1001);
     });
-      it('should not let coutdown go below 0', () => {
+      it('should not let countdown go below 0', () => {
         var countdown = TestUtils.renderIntoDocument(<Countdown/>);
         countdown.handleSetCountdown(1);
 
