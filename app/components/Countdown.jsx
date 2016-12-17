@@ -4,6 +4,7 @@ var CountdownForm = require('CountdownForm');
 var Controls = require('Controls');
 
 var Countdown = React.createClass({
+
   getInitialState: function(){
     return {
       count: 0,
